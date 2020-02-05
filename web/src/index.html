@@ -1,34 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>ET Login</title>
-
-
-    <!-- Bootstrap core CSS -->
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thomas McDonagh Home</title>
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="/main.css" rel="stylesheet" />
+    <link href="/menu.css" rel="stylesheet" />
   </head>
+  <body>
 
-  <body class="text-center">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
 
-    <form class="form-signin" action="auth_login.php" method="post">
-      <h1 class="h1 mb-3 font-weight-normal">Evil Twin</h1>
-      <h1 class="h3 mb-3 font-weight-normal">Please surrender your credentials</h1>
-      <label for="username" class="sr-only">Email address</label>
-      <input type="email" name="username" id="username" class="form-control" placeholder="Email address" required autofocus>
-      <label for="password" class="sr-only">Password</label>
-      <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
-      <button class="btn btn-lg btn-primary btn-block" type="submit" value="Submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted">&copy; 2020-3030</p>
-    </form>
 
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">Thomas McDonagh</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/"> Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/games/"> Games </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/logs/"> Logs </a>
+          </li>
+        </ul>
+        <!--
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-brand" href="#"><img src="/githubLogo.png"></a>
+          </li>
+        </ul>
+        -->
+      </div>
+    </nav>
+
+
+    <center>
+
+      <br>
+      <br>
+      <br>
+      <!--
+      <h1 style="font-size:60px">McDonagh Corp</h1>
+      -->
+      <br>
+      <h2><a href="/games">Games</a></h2>
+      <p>Javascript Games</p>
+      <br>
+      <h2><a href="/logs">Logs</a></h2>
+      <p>Show connection loss data and current RAM and CPU usage of the server running this site</p>
+      </div>
   </body>
 </html>
-
